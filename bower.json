@@ -1,0 +1,21 @@
+{
+  "name": "webapp",
+  "description": "web App using node, bower and gulp",
+  "main": "app.js",
+  "authors": [
+    "Jaspreet Singh"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jaspreet36/webapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

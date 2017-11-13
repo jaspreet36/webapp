@@ -1,0 +1,33 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "web App using node, bower and gulp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaspreet36/webapp.git"
+  },
+  "author": "Jaspreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaspreet36/webapp/issues"
+  },
+  "homepage": "https://github.com/jaspreet36/webapp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.3.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  }
+}
